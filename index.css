@@ -42,7 +42,7 @@ body {
     font-size: 40px;
     animation-name: fadeIn;
     animation-duration: 1s;
-    
+    animation-delay: 1s;
     animation-fill-mode: both;
 }
 .scrollingText {
