@@ -2,7 +2,8 @@ html,
 body {
     margin: 0;
     height: 100%;
-    overflow: hidden
+    overflow-x: hidden;
+    font-size: 27.5px;
 }
 @font-face {
     font-family: lato;
@@ -19,6 +20,16 @@ body {
 
     to {
         width: 100%
+    }
+}
+@keyframes typingSmall {
+    from {
+        width: 0
+    }
+
+    to {
+        width: 2%;
+        overflow: show;
     }
 }
 @keyframes  fadeIn {
@@ -45,10 +56,35 @@ body {
     animation-delay: 1s;
     animation-fill-mode: both;
 }
+.scrollingTextSmall{
+            overflow: hidden;
+                border-right: rgb(219, 204, 172) 3px solid;
+            
+                margin: 0 auto;
+                letter-spacing: .15em;
+            
+            
+            
+            
+                position: absolute;
+            
+                display: block;
+            
+            
+                width: auto;
+                height: 500px;
+            
+            
+            
+                animation-name: typingSmall;
+                animation-duration: 3.5s;
+            
+                animation-fill-mode: both;
+}
 .scrollingText {
         overflow: hidden;
         border-right: rgb(219, 204, 172) 3px solid;
-        white-space: nowrap;
+        
         margin: 0 auto;
         letter-spacing: .15em;
         
