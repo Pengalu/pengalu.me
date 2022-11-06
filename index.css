@@ -1,10 +1,59 @@
-
+html,
+body {
+    margin: 0;
+    height: 100%;
+    overflow: hidden
+}
 @font-face {
     font-family: lato;
     src: url(Lato-Regular.ttf);
 }
+@font-face {
+    font-family: lato-bold;
+    src: url(Lato-Bold.ttf);
+}
+@keyframes typing {
+    from {
+        width: 0
+    }
+
+    to {
+        width: 100%
+    }
+}
 body {
     font-family: lato;
-    background-color: #06080f;
-    color: white;
+    background-color: #252b3f;
+    color: rgb(226, 220, 207);
+    
+}
+.header {
+    font-family: lato-bold;
+    font-size: 40px;
+    
+}
+.scrollingText {
+        overflow: hidden;
+        border-right: rgb(219, 204, 172) 3px solid;
+        white-space: nowrap;
+        margin: 0 auto;
+        letter-spacing: .15em;
+        
+    
+    
+    
+        position: absolute;
+    
+        display: block;
+    
+    
+        width: auto;
+        height: 60px;
+    
+    
+    
+        animation-name: typing;
+        animation-duration: 3.5s;
+    
+        animation-fill-mode: both;
 }
