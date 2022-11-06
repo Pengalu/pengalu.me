@@ -21,6 +21,16 @@ body {
         width: 100%
     }
 }
+@keyframes  fadeIn {
+
+    from {
+        opacity: 0;
+    }
+
+    to {
+        opacity: 1;
+    }
+}
 body {
     font-family: lato;
     background-color: #252b3f;
@@ -30,7 +40,10 @@ body {
 .header {
     font-family: lato-bold;
     font-size: 40px;
+    animation-name: fadeIn;
+    animation-duration: 1s;
     
+    animation-fill-mode: both;
 }
 .scrollingText {
         overflow: hidden;
