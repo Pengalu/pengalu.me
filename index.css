@@ -1,0 +1,10 @@
+
+@font-face {
+    font-family: lato;
+    src: url(Lato-Regular.ttf);
+}
+body {
+    font-family: lato;
+    background-color: #06080f;
+    color: white;
+}
