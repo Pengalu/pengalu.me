@@ -1,8 +1,11 @@
-html,
-body {
-    margin: 0;
+html{
+
+margin: 0;
     height: 100%;
     overflow-x: hidden;
+}
+body {
+    
     font-size: 27.5px;
 }
 @font-face {
