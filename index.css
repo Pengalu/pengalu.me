@@ -51,42 +51,13 @@ body {
     color: rgb(226, 220, 207);
     
 }
-.header {
-    font-family: lato-bold;
-    font-size: 40px;
-    animation-name: fadeIn;
-    animation-duration: 1s;
-    animation-delay: 1s;
-    animation-fill-mode: both;
-}
-.scrollingTextSmall{
-    font-size: 40px;
-            overflow: hidden;
-                border-right: rgb(219, 204, 172) 3px solid;
-            
-                margin: 0 auto;
-                letter-spacing: .15em;
-            
-            
-            
-            
-                position: absolute;
-            
-                display: block;
-            
-            
-                width: auto;
-                height: 500px;
-            
-            
-            
-                animation-name: typingSmall;
-                animation-duration: 3.5s;
-            
-                animation-fill-mode: both;
+.header{
+
+font-size: 40px;
+
 }
 .scrollingText {
-    font-size: 40px;
+        white-space: nowrap;
         overflow: hidden;
         border-right: rgb(219, 204, 172) 3px solid;
         
