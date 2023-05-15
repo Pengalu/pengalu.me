@@ -1,11 +1,11 @@
 html{
 
-margin: 0;
+    margin: 0;
     height: 100%;
     overflow-x: hidden;
 }
 body {
-    
+    height: fit-content;
     font-size: 27.5px;
 }
 @font-face {
