@@ -92,7 +92,11 @@ font-family: lato-bold;
 
     font-size: 20px;
     font-family: lato;
-
+    margin-top: 0px;
+    margin-bottom: 0px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    line-height: 2px;
 }
 .scrollingText {
         white-space: nowrap;
