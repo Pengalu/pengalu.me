@@ -52,8 +52,10 @@ body {
     
 }
 .header{
-
+padding: 0%;
+margin: 0px;
 font-size: 40px;
+font-family: lato-bold;
 
 }
 .scrollingText {
