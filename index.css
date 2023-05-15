@@ -57,6 +57,7 @@ body {
     animation-fill-mode: both;
 }
 .scrollingTextSmall{
+    font-size: 40px;
             overflow: hidden;
                 border-right: rgb(219, 204, 172) 3px solid;
             
@@ -82,6 +83,7 @@ body {
                 animation-fill-mode: both;
 }
 .scrollingText {
+    font-size: 40px;
         overflow: hidden;
         border-right: rgb(219, 204, 172) 3px solid;
         
