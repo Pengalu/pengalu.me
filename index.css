@@ -89,11 +89,12 @@ body {
 padding: 0%;
 margin: 0px;
 font-size: 40px;
+
 font-family: 'Fira Sans', sans-serif;
 
 }
 .content{
-font-family: 'Fira Sans', sans-serif;
+    font-family: 'Fira Sans', sans-serif;
     font-size: 20px;
     font-family: lato;
     margin-top: 0px;
