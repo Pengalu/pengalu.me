@@ -4,7 +4,11 @@ html{
     height: 100%;
     overflow-x: hidden;
 }
+a{
 
+    color:inherit;
+
+}
 /*
 @font-face {
     font-family: lato;
@@ -96,7 +100,7 @@ font-family: 'Fira Sans', sans-serif;
     margin-bottom: 0px;
     padding-top: 0px;
     padding-bottom: 0px;
-    line-height: 2px;
+    line-height: auto;
 }
 .scrollingText {
         white-space: nowrap;
