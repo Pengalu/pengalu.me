@@ -4,10 +4,7 @@ html{
     height: 100%;
     overflow-x: hidden;
 }
-body {
-    height: fit-content;
-    
-}
+
 @font-face {
     font-family: lato;
     src: url(Lato-Regular.ttf);
@@ -49,7 +46,7 @@ body {
     font-family: lato;
     background-color: #252b3f;
     color: rgb(226, 220, 207);
-    
+    height: fit-content;
 }
 .tooltip {
   position: relative;
@@ -75,6 +72,7 @@ body {
   bottom: 100%;
   left: 50%;
   margin-left: -60px; /* Use half of the width (120/2 = 60), to center the tooltip */
+  line-height: 15px;
 }
 
 /* Show the tooltip text when you mouse over the tooltip container */
