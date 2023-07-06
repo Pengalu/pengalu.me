@@ -1,2 +1,61 @@
-<h1>Welcome to SvelteKit</h1>
-<p>Visit <a href="https://kit.svelte.dev">kit.svelte.dev</a> to read the documentation adasdasdasds</p>
+<head>
+    <title>Pengalu</title>
+    <meta name="viewport" content="initial-scale=1.0, maximum-scale=1.0,minimum-scale=0.5, user-scalable=0,width=device-width">
+    <meta name="description" content="blog or something.">
+    <meta name="author" content="Pengalu">
+    <link rel="stylesheet" href="index.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" >
+    <link href="https://fonts.googleapis.com/css2?family=Fira+Sans:wght@400&display=swap" rel="stylesheet">
+  
+   <link href="https://fonts.googleapis.com/css2?family=Source+Code+Pro:ital,wght@1,600&display=swap" rel="stylesheet">
+
+
+</head>
+<body>
+ <div class="header">
+        <p style="position: relative;left: 3vw; height: auto;margin-bottom: 0px;animation-name: fadeIn; animation-duration: 1.5s;padding-bottom: -10px;">Hello, my name is</p>
+       <em> <p class="scrollingText" style="padding-top: 0px;color: rgb(128, 126, 123);margin-bottom: 0px">Pengalu <span style="color:rgb(147, 170, 233);">Pengalu </span>Pengalu Pengalu Pengalu Pengalu Pengalu Pengalu Pengalu Pengalu Pengalu Pengalu Pengalu Pengalu Pengalu Pengalu Pengalu Pengalu</p>
+    </em> <p style="position: relative;left: 7vw; height: auto;margin-bottom: 0px;padding-top:5px;animation-name: fadeIn; animation-duration: 1.5s;">and I make <span class="tooltip" style="color: rgb(255, 152, 56)">stuff<span class="tooltiptext" style="bottom:75%;">See below!</span>.</p>
+        
+
+    </div>
+    <div class = "content" style="font-family: 'Fira Sans', sans-serif;">
+
+        <p>
+            Hi, I'm an <span class="tooltip" style="color: rgb(122, 185, 122);">ethnically ambiguous <span class="tooltiptext"style="bottom:75%;">Biracial Filipino/White</span></span> and <span style="color: rgb(240, 230, 92)" class="tooltip">multilingual <span class="tooltiptext">EN, DE, NL</span></span> jack-of-all-trades software dev. 
+            
+       
+           <br> So-Cal native, half of programming group <a href="https://superdef.games" style="color: rgb(147, 170, 233);" class = "tooltip">Superliminal Defenestration<span class="tooltiptext">To be expanded</span></a></p>
+        
+
+    </div>
+    <br>
+    <br>
+    <div class = "content" style="font-family: 'Fira Sans', sans-serif; line-height: normal;">
+        <p>Afformentioned <span style = "color:rgb(255, 152, 56) ;">stuff</span> I do:</p>
+        <ul>
+            <li><a>Gamedev</a></li>
+            <li><a>Preschool-grade Engineering</a></li>
+            <li><a>Photography</a></li>
+            <li><a style="color: rgb(255,217,0);" class="tooltip">First Robotics Competition (2485)<span class="tooltiptext">Software Dept.</span></a></li>
+        </ul>
+        <br>
+        <p>Anyways, you can find me on:</p>
+        <ul>
+
+            <li><a href="https://github.com/Pengalu">Github</a></li>
+            <li><a href="https://instagram.com/pengalu200">Instagram</a></li>
+            <li><a>Discord @ <span style="color:rgb(147, 170, 233)" class="tooltip">suop#6295<span class="tooltiptext">Add me!</span></span></a></li>
+            <li><a>Twitter is a shithole</a></li>
+
+        </ul>
+
+    </div>
+
+
+
+
+
+</body>
+
